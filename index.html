@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
-<body> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic water scroll builder</title>
+    <link href="stylesheets/styles.css" type="text/css" rel="stylesheet"/>
+</head>
 
-<h1>heading</h1>
-<p>paraaaa</p>
+<body>
+    <section class = "intro_sec">
+        <h1>what's in our water?</h1>
+    </section>
+    <!--container for main graphic and text-->
+    <section class = "main_scrolly">
+        <div class = "viz" data-min-width="700" data-max-width="1049">
+            <img id="graphic" class=""  src="contaminants-paths.jpg">
+        </div>
+        <!--contaminant text -->
+        <div class = "text">
+            <div id = "lead" >
+                <h2 class="scroll_trigger" style="opacity:0;">Lead</h2>
+                <p class ="scroll_trigger" style="opacity:0;">Lead is a contaminant found primarily in.... </p>
+                <p class ="scroll_trigger" style="opacity:0;">Where it comes from:</p>
+                <p class ="scroll_trigger" style="opacity:0;">What it does:</p>
+            </div>
+            <div id = "arsenic">
+                <h2 class="scroll_trigger" style="opacity:0;">Arsenic</h2>
+                <p class ="scroll_trigger" style="opacity:0;">Arsenic is a contaminant found primarily in.... </p>
+            </div>
+            <div id = "nitrates">
+                <h2 class="scroll_trigger" style="opacity:0;">Nitrates</h2>
+                <p class ="scroll_trigger" style="opacity:0;">Nitrates are a contaminant found primarily in.... </p>
+            </div>
+
+        </div>
+    </section>
 
 
+
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="script.js"></script>
 </body>
 </html>

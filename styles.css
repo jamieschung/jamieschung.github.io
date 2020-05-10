@@ -1,0 +1,89 @@
+#graphic {
+    width:700px;
+}
+
+.viz{
+    /*height: 5015px;*/
+    object-fit:contain;
+    align-self: flex-start;
+}
+
+.main_scrolly{
+    /*border: 3px solid blue;*/
+    padding: 20px 40px 40px;
+    /*max-width: 640px;*/
+    display:flex;
+    position:relative;
+    overflow:hidden;
+}
+
+.text {
+    flex: 1 1 auto;
+    font-family:nyt-franklin,arial,helvetica,sans-serif;
+    font-weight:500;
+    font-size:12px;
+    line-height:14px;
+    filter:alpha(opacity=100);
+    /*opacity:0.5;*/
+    letter-spacing:0em;
+    text-align:left;
+    color:rgb(0,0,0);
+    text-transform:none;
+    padding-bottom:0;
+    padding-top:0;
+    mix-blend-mode:normal;
+    font-style:normal;
+}
+
+/*.textbody{*/
+/*    font-style:italic;*/
+/*    letter-spacing:0.1em;*/
+/*    !*text-align:center;*!*/
+/*    !*text-transform:uppercase;*!*/
+/*    color:rgb(2,153,206);*/
+/*}*/
+
+#lead{
+    position: absolute;
+    top: 390px;
+    /*top: 6.6289%;*/
+    /*left: 54.3904%;*/
+    margin-left: 3.875%;
+    /*width: 7.75%;*/
+    opacity: 1;
+}
+
+#arsenic{
+    position: absolute;
+    top: 810px;
+    /*top: 6.6289%;*/
+    /*left: 54.3904%;*/
+    margin-left: 3.875%;
+    /*width: 7.75%;*/
+    opacity: 1;
+}
+
+#nitrates{
+    position: absolute;
+    top: 1200px;
+    /*top: 6.6289%;*/
+    /*left: 54.3904%;*/
+    margin-left: 3.875%;
+    /*width: 7.75%;*/
+    opacity: 1;
+}
+
+
+body{
+    padding: 50px;
+}
+
+.scroll_trigger p { white-space: nowrap; }
+
+h1{
+    align: center;
+}
+
+h2{
+    si
+}
